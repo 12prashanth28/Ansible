@@ -1,0 +1,12 @@
+AD_Hoc Commands
+
+1)ansible demo -m ping
+2)ansible demo -a "pwd"
+3)ansible demo -a "ls-a"
+4)ansible demo -a "touch sample.txt"
+5)ansible demo -a "rm -rf sample.txt"
+6)ansible demo -a  "sudo yum install httpd"
+7)ansible demo -a "sudo which httpd"
+8)ansible demo -a systemctl status httpd"
+9)ansible demo -a "sudo yum remove httpd -y"
+10)ansible demo -b -a "which httpd"
